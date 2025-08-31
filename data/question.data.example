@@ -1,10 +1,12 @@
 /**
  * @param {string} quizType
  * @param {Array} tags
- * @param {string} question
+ * @param {string} questionText
  * @param {Array} options
  * @param {Array} answers
+ * @param {string} source
  */
+
 export const data = [
-  { quizType: "React", tags: [ "state" ], question: "Which of the following is a way to handle data in React?", options: [ "State & Props", "Services & Components", "State & Services", "State & Component" ], answers: [ "State & Props" ] }
+  { quizType: "React", tags: [ "state" ], questionText: "Which of the following is a way to handle data in React?", options: [ "State & Props", "Services & Components", "State & Services", "State & Component" ], answers: [ "State & Props" ], source: "http://localhost:5173" }
 ]

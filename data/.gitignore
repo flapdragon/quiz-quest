@@ -1,5 +1,6 @@
 # App sepcific - data files
 *.data.js
+*.data.json
 
 # Logs
 logs
